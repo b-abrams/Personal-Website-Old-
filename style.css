@@ -1,0 +1,52 @@
+html{
+    background-color: dimgrey;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: firebrick;
+    height: 982px;
+    width: 300px;
+    position: sticky;
+    float: left;
+    top: 0;
+    
+}
+nav ul{
+    
+    position: absolute;
+    display: block;
+    list-style-type: none;
+    padding-top: 200px;
+}
+
+nav ul li{
+    font-family: sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+#about{
+    
+    background-color: white;
+    position: relative;
+    padding: 30px; 
+    margin-top: 0px;  
+    width: 1495px;
+    height: 920px;
+    margin-left: 300px;
+    text-align: center;
+}
+
+#about h1, h2, p{
+    font-family: sans-serif;
+}
+
+#headshot img{
+    
+    border-radius: 50%;
+    padding-top: 20px;
+}
