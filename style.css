@@ -30,17 +30,18 @@ nav ul{
 }
 
 nav ul li{
-    font-family: sans-serif;
+    font-family: 'Nanum Gothic Coding', sans-serif;
+    font-size: 140%;
     color: white;
     padding: 20px;
 }
 
 #externals{
-    font-family: sans-serif;
-    position: relative;
+    font-family: 'Nanum Gothic Coding', sans-serif;
+    font-size: 120%;
     color: white;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 150px;
 }
 
 #linkedin{
@@ -65,7 +66,8 @@ nav ul li{
     height: 920px;
     margin-left: 250px;
     text-align: center;
-    
+    border-bottom: solid;
+    border-bottom-color: black;
     
 }
 
@@ -91,19 +93,20 @@ nav ul li{
 }
 
 #contact p{
-    display: inline;
+    display: inline-block;
     font-family: 'Nanum Gothic Coding', sans-serif;
     font-size: 150%;
-    margin-left: -550px;
+
+    
 }
 
 #email{
-   
-    float: left;
-    margin-top: -12px;
-    margin-left: 550px;
     
+    position: relative;
+    top: 12px;
+    padding-right: 10px;
 }
+
 
 /* END ABOUT PAGE */
 
@@ -112,16 +115,142 @@ nav ul li{
 /* START SKILLS PAGE */
 #skills{
     
-     
     background-color: white;
-    position: relative;
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
     height: 920px;
     margin-left: 250px;
     text-align: center;
+    border-bottom: solid;
+    border-bottom-color: black;
 }
+
+#skills h1{
+    font-family: 'Bungee', sans-serif;
+    float: left;
+    font-size: 260%;
+    
+    
+}
+
+#skills h2{
+    font-family: 'Nanum Gothic Coding', sans-serif;
+    float: left;
+    clear: left;
+    margin-left: 100px;
+    margin-top: -5px
+}
+
+#skills h3{
+    font-family: 'Nanum Gothic Coding', sans-serif;
+    float: left;
+    clear: left;
+    margin-left: 200px;
+}
+
+#java{
+    float: left;
+    clear: left;
+    margin-left: 300px;
+    padding-bottom: 15px;
+}
+
+#secondary{
+    list-style-type: none;
+    display: inline-flex;
+    float: left;
+    clear: left;
+    margin-left: 260px;
+}
+
+#cpp
+{
+    float: left;
+    clear: left;
+    margin-left: 300px;
+    padding-bottom: 30px;
+}
+
+#html{
+    float: left;
+    clear: none;
+    display: inline;
+    padding-left: 20px;
+}
+
+#css{
+    
+    float: left;
+    clear: none;
+    display: inline;
+    margin-top: -7px;
+    padding-left: 20px;
+    
+}
+
+#eclipse{
+    float: left;
+    clear: left;
+    margin-left: 300px;
+    padding-bottom: 30px;
+}
+
+#xcode{
+    float: left;
+    clear: none;
+    display: inline;
+    margin-top: -7px;
+    padding-left: 30px;
+}
+
+#visualstudio{
+    
+    float: left;
+    clear: none;
+    display: inline;
+    margin-top: -7px;
+    padding-left: 25px;
+    
+}
+
+#office{
+    
+    float: left;
+    clear: none;
+    display: inline;
+    margin-top: -7px;
+    padding-left: 25px;
+    
+}
+
+#windows{
+   
+    float: left;
+    clear: left;
+    margin-left: 300px;
+    
+}
+
+
+#osx{
+    float: left;
+    clear: none;
+    display: inline;
+    margin-top: -7px;
+    padding-left: 30px;
+}
+
+#ubuntu{
+    
+    float: left;
+    clear: none;
+    display: inline;
+    margin-top: -7px;
+    padding-left: 25px;
+    
+}
+
 
 /* END SKILLS PAGE */
 
@@ -138,7 +267,51 @@ nav ul li{
     height: 920px;
     margin-left: 250px;
     text-align: center;
+    border-bottom: solid;
+    border-bottom-color: black;
 }
+
+#experience h1{
+    font-family: 'Bungee', sans-serif;
+    float: left;
+    font-size: 260%;
+    
+    
+}
+
+#experience h2{
+    font-family: 'Nanum Gothic Coding', sans-serif;
+    float: left;
+    clear: left;
+    margin-left: 100px;
+    margin-top: -5px
+}
+
+#experience h3{
+    font-family: 'Nanum Gothic Coding', sans-serif;
+    float: left;
+    clear: left;
+    margin-left: 200px;
+}
+
+#experience ul{
+    font-family: 'Nanum Gothic Coding', sans-serif;
+    clear: left;
+    text-align: left;
+    margin-left: 250px;
+    
+    
+}
+
+#experience li{
+    
+    padding-bottom: 20px;
+}
+
+/* END EXPERIENCE PAGE */
+
+
+/* START PROJECTS PAGE */
 
 #projects{
     
@@ -150,7 +323,26 @@ nav ul li{
     height: 920px;
     margin-left: 250px;
     text-align: center;
+    border-bottom: solid;
+    border-bottom-color: black;
+    
+    
 }
 
+#projects h1{
+    font-family: 'Bungee', sans-serif;
+    float: left;
+    font-size: 260%;
+    
+    
+}
 
-/* END EXPERIENCE PAGE */
+#projects h2{
+    font-family: 'Nanum Gothic Coding', sans-serif;
+    float: left;
+    clear: left;
+    margin-left: 100px;
+    margin-top: -5px
+}
+
+/* END PROJECTS PAGE */
