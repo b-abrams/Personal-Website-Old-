@@ -64,7 +64,7 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    height: 100vh;
+    height: 920px;
     margin-left: 250px;
     text-align: center;
     border-bottom: solid;
@@ -120,7 +120,7 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    height: 100vh;
+    height: 920px;
     margin-left: 250px;
     text-align: center;
     border-bottom: solid;
@@ -265,7 +265,7 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    height: 100vh;
+    height: 920px;
     margin-left: 250px;
     text-align: center;
     border-bottom: solid;
@@ -321,11 +321,10 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    min-height: 100vh;
+    min-height: 920px;
     margin-left: 250px;
     text-align: center;
-    border-bottom: solid;
-    border-bottom-color: black;
+   
     
     
 }
