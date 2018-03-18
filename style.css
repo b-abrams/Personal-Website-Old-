@@ -16,7 +16,7 @@ nav{
     margin-left: 0;
     background-color: firebrick;
     height: 982px;
-    min-width: 250px;
+    width: auto;
     position: sticky;
     float: left;
     top: 0;
@@ -26,7 +26,8 @@ nav ul{
     position: sticky;
     display: block;
     list-style-type: none;
-    padding-top: 200px;
+    padding-top: 80%;
+    padding-right: 24%
 }
 
 nav ul li{
@@ -41,7 +42,7 @@ nav ul li{
     font-size: 120%;
     color: white;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 50%;
 }
 
 #linkedin{
@@ -63,7 +64,7 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    height: 920px;
+    height: 100vh;
     margin-left: 250px;
     text-align: center;
     border-bottom: solid;
@@ -119,7 +120,7 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    height: 920px;
+    height: 100vh;
     margin-left: 250px;
     text-align: center;
     border-bottom: solid;
@@ -264,7 +265,7 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    height: 920px;
+    height: 100vh;
     margin-left: 250px;
     text-align: center;
     border-bottom: solid;
@@ -320,7 +321,7 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    height: 920px;
+    min-height: 100vh;
     margin-left: 250px;
     text-align: center;
     border-bottom: solid;
