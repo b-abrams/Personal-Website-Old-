@@ -27,7 +27,6 @@ nav ul{
     display: block;
     list-style-type: none;
     padding-top: 80%;
-    padding-right: 24%
 }
 
 nav ul li{
@@ -346,3 +345,63 @@ nav ul li{
 }
 
 /* END PROJECTS PAGE */
+
+/* WEBKIT SPECIFIC CSS */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    
+    nav{
+    height: 100vh;
+    position: -webkit-sticky;
+    resize: horizontal;
+    }
+    
+    nav ul{
+        
+        padding-top: 50%
+    }
+    
+    #about, #skills, #experience, #projects{
+        position: static;
+        margin-left: 15.6%;
+        height: 92vh;
+    }
+    
+    /* ABOUT RESIZES */
+    #about h1{
+    font-size: 300%;
+    }
+
+    #about h2{
+    font-size: 150%;
+    }
+    
+    #headshot img{
+       width: 300px;
+       height: 300px;
+    }
+    
+     /* SKILLS RESIZES */
+    #skills h1{
+    font-family: 'Bungee', sans-serif;
+    float: left;
+    font-size: 200%;
+    
+    
+    }
+
+    /* EXPERIENCE RESIZES */
+    #experience h1{
+    font-size: 200%;
+    }
+    
+    
+    /* PROJECTS RESIZES */
+    #projects h1{
+    font-size: 200%;
+    }
+    
+}
+    
+    
+   
+}
