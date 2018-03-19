@@ -360,8 +360,27 @@ nav ul li{
         padding-top: 50%
     }
     
-    #about, #skills, #experience, #projects{
-        position: static;
+    #about{
+        position: relative;
+        margin-left: 15.6%;
+        height: 92vh;
+    }
+    
+     #skills{
+        position: relative;
+        clear: both;
+        margin-left: 15.6%;
+        height: 92vh;
+    }
+    
+    #experience{
+        position: relative;
+        margin-left: 15.6%;
+        height: 92vh;
+    }
+    
+    #projects{
+        position: relative;
         margin-left: 15.6%;
         height: 92vh;
     }
