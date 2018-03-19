@@ -1,5 +1,5 @@
 html{
-    background-color: dimgrey;
+    background-color: black;
 }
 
 body{
@@ -16,7 +16,7 @@ nav{
     margin-left: 0;
     background-color: firebrick;
     height: 982px;
-    width: auto;
+    width: 13.5%;
     position: sticky;
     float: left;
     top: 0;
@@ -345,82 +345,5 @@ nav ul li{
 }
 
 /* END PROJECTS PAGE */
-
-/* WEBKIT SPECIFIC CSS */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    
-    nav{
-    height: 100vh;
-    position: -webkit-sticky;
-    resize: horizontal;
-    }
-    
-    nav ul{
-        
-        padding-top: 50%
-    }
-    
-    #about{
-        position: relative;
-        margin-left: 15.6%;
-        height: 92vh;
-    }
-    
-     #skills{
-        position: relative;
-        clear: both;
-        margin-left: 15.6%;
-        height: 92vh;
-    }
-    
-    #experience{
-        position: relative;
-        margin-left: 15.6%;
-        height: 92vh;
-    }
-    
-    #projects{
-        position: relative;
-        margin-left: 15.6%;
-        height: 92vh;
-    }
-    
-    /* ABOUT RESIZES */
-    #about h1{
-    font-size: 300%;
-    }
-
-    #about h2{
-    font-size: 150%;
-    }
-    
-    #headshot img{
-       width: 300px;
-       height: 300px;
-    }
-    
-     /* SKILLS RESIZES */
-    #skills h1{
-    font-family: 'Bungee', sans-serif;
-    float: left;
-    font-size: 200%;
-    
-    
-    }
-
-    /* EXPERIENCE RESIZES */
-    #experience h1{
-    font-size: 200%;
-    }
-    
-    
-    /* PROJECTS RESIZES */
-    #projects h1{
-    font-size: 200%;
-    }
-    
-}
-    
-    
    
 }
