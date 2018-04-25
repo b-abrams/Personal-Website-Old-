@@ -15,17 +15,19 @@ a{
 nav{
     margin-left: 0;
     background-color: firebrick;
-    height: 982px;
+    height: 100vh;
     width: 13.5%;
     position: sticky;
     float: left;
     top: 0;
     
 }
+
 nav ul{
     position: sticky;
     display: block;
     list-style-type: none;
+    text-align: left;
     padding-top: 80%;
 }
 
@@ -33,7 +35,7 @@ nav ul li{
     font-family: 'Nanum Gothic Coding', sans-serif;
     font-size: 140%;
     color: white;
-    padding: 20px;
+    padding: 15%;
 }
 
 #externals{
@@ -63,7 +65,7 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    height: 920px;
+    height: 100vh;
     margin-left: 250px;
     text-align: center;
     border-bottom: solid;
@@ -107,7 +109,6 @@ nav ul li{
     padding-right: 10px;
 }
 
-
 /* END ABOUT PAGE */
 
 
@@ -119,7 +120,7 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    height: 920px;
+    height: 100vh;
     margin-left: 250px;
     text-align: center;
     border-bottom: solid;
@@ -264,7 +265,7 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    height: 920px;
+    height: 100vh;
     margin-left: 250px;
     text-align: center;
     border-bottom: solid;
@@ -320,7 +321,7 @@ nav ul li{
     padding: 30px; 
     margin-top: 0px;  
     width: auto;
-    min-height: 920px;
+    min-height: 100vh;
     margin-left: 250px;
     text-align: center;
    
@@ -346,4 +347,102 @@ nav ul li{
 
 /* END PROJECTS PAGE */
    
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {  
+    
+    nav
+    {
+        
+        width: 14%;
+        position: -webkit-sticky;
+    }
+    
+    nav ul{
+    padding-top: 40%;
+    }
+
+    #externals{
+    padding-top: 15%;
+    padding-bottom: 10%;
+    }
+    
+    /* START ABOUT PAGE */
+#about{
+    
+    background-color: white;
+    position: relative;
+    padding: 0%; 
+    margin-top: 0px;  
+    width: auto;
+    height: 100vh;
+    margin-left: 14%;
+    
 }
+
+#headshot img{
+    border-radius: 50%;
+    padding-top: 3%;
+}
+
+#about h1{
+    font-size: 300%;
+}
+
+#about h2{
+    font-family: 'Bungee', sans-serif;
+    font-size: 150%;
+}
+
+#bio{
+    font-family: 'Nanum Gothic Coding', sans-serif;
+    font-size: 130%;
+}
+
+/* END ABOUT PAGE */
+
+/* START SKILLS PAGE */
+#skills{
+    
+    background-color: white;
+    padding: 20px; 
+    margin-top: 0px;  
+    width: auto;
+    height: 100vh;
+    margin-left: 14%;
+    
+}
+/* END SKILLS PAGE */
+   
+/* START EXPERIENCE PAGE */
+#experience{
+    
+    background-color: white;
+    position: relative;
+    padding: 30px; 
+    margin-top: 0px;  
+    width: auto;
+    height: 100vh;
+    margin-left: 14%;
+}
+/* END EXPERIENCE PAGE */
+
+/* START PROJECTS PAGE */
+
+#projects{
+    
+    background-color: white;
+    position: relative;
+    padding: 30px; 
+    margin-top: 0px;  
+    width: auto;
+    min-height: 100vh;
+    margin-left: 14%;
+       
+}
+
+/* END PROJECTS PAGE */
+
+}
+
+
