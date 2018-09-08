@@ -130,9 +130,18 @@ nav ul li{
 #about h1{
     font-family: 'Bungee', sans-serif;
     float: left;
-    font-size: 260%;
-    
-    
+    font-size: 260%; 
+      
+}
+
+#about img{
+    border-radius: 50%;
+}
+
+#about p{
+    font-family: 'Nanum Gothic Coding', sans-serif;
+    float: left;
+    font-size: 100%;   
 }
 
 /* END ABOUT PAGE */
@@ -205,6 +214,16 @@ nav ul li{
 }
 
 #css{
+    
+    float: left;
+    clear: none;
+    display: inline;
+    margin-top: -7px;
+    padding-left: 20px;
+    
+}
+
+#javascript{
     
     float: left;
     clear: none;
