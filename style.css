@@ -129,9 +129,14 @@ nav ul li{
 
 #about h1{
     font-family: 'Bungee', sans-serif;
+    margin-bottom: 0px;
     float: left;
-    font-size: 260%; 
+    font-size: 260%;
       
+}
+
+#pics{
+    clear: left;
 }
 
 #about img{
