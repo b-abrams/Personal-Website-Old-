@@ -1,0 +1,356 @@
+html {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* START NAVBAR LAYOUT PAGE */
+nav {
+  margin-left: 0;
+  background-color: firebrick;
+  height: 100vh;
+  width: 13.5%;
+  position: sticky;
+  float: left;
+  top: 0;
+}
+
+nav ul {
+  position: sticky;
+  display: block;
+  list-style-type: none;
+  text-align: left;
+  padding-top: 80%;
+}
+
+nav ul li {
+  font-family: "Nanum Gothic Coding", sans-serif;
+  font-size: 140%;
+  color: white;
+  padding: 10%;
+}
+
+#externals {
+  font-family: "Nanum Gothic Coding", sans-serif;
+  font-size: 120%;
+  color: white;
+  text-align: center;
+  padding-top: 50%;
+}
+
+#linkedin {
+  border-radius: 50%;
+  padding: 20px;
+}
+
+#github {
+  padding: 20px;
+}
+
+/* END NAVBAR LAYOUT */
+
+/* START HOME PAGE */
+#home {
+  background-color: white;
+  position: relative;
+  padding: 30px;
+  margin-top: 0px;
+  width: auto;
+  height: 100vh;
+  margin-left: 250px;
+  text-align: center;
+  border-bottom: solid;
+  border-bottom-color: black;
+}
+
+#headshot img {
+  border-radius: 50%;
+  padding-top: 20px;
+}
+
+#home h1 {
+  font-family: "Bungee", sans-serif;
+  font-size: 400%;
+}
+
+#home h2 {
+  font-family: "Bungee", sans-serif;
+  font-size: 200%;
+}
+
+#bio {
+  font-family: "Nanum Gothic Coding", sans-serif;
+  font-size: 150%;
+}
+
+#contact p {
+  display: inline-block;
+  font-family: "Nanum Gothic Coding", sans-serif;
+  font-size: 150%;
+}
+
+#email {
+  position: relative;
+  top: 12px;
+  padding-right: 10px;
+}
+
+/* END HOME PAGE */
+
+/* START ABOUT PAGE */
+
+#about {
+  background-color: white;
+  position: relative;
+  padding: 30px;
+  margin-top: 0px;
+  width: auto;
+  height: 100vh;
+  margin-left: 250px;
+  text-align: center;
+  border-bottom: solid;
+  border-bottom-color: black;
+}
+
+#about h1 {
+  font-family: "Bungee", sans-serif;
+  margin-bottom: 0px;
+  float: left;
+  font-size: 260%;
+}
+
+#pics {
+  margin-top: -15px;
+  margin-right: 118px;
+}
+
+#about img {
+  border-radius: 50%;
+}
+
+#about p {
+  font-family: "Nanum Gothic Coding", sans-serif;
+  float: left;
+  font-size: 100%;
+}
+
+/* END ABOUT PAGE */
+
+/* START SKILLS PAGE */
+#skills {
+  background-color: white;
+  padding: 30px;
+  margin-top: 0px;
+  width: auto;
+  height: 100vh;
+  margin-left: 250px;
+  text-align: center;
+  border-bottom: solid;
+  border-bottom-color: black;
+}
+
+#skills h1 {
+  font-family: "Bungee", sans-serif;
+  float: left;
+  font-size: 260%;
+}
+
+#skills h2 {
+  font-family: "Nanum Gothic Coding", sans-serif;
+  float: left;
+  clear: left;
+  margin-left: 100px;
+  margin-top: -5px;
+}
+
+#skills h3 {
+  font-family: "Nanum Gothic Coding", sans-serif;
+  float: left;
+  clear: left;
+  margin-left: 200px;
+}
+
+#java {
+  float: left;
+  clear: left;
+  margin-left: 300px;
+  padding-bottom: 15px;
+}
+
+#secondary {
+  list-style-type: none;
+  display: inline-flex;
+  float: left;
+  clear: left;
+  margin-left: 260px;
+}
+
+#cpp {
+  float: left;
+  clear: left;
+  margin-left: 300px;
+  padding-bottom: 30px;
+}
+
+#html {
+  float: left;
+  clear: none;
+  display: inline;
+  padding-left: 20px;
+}
+
+#css {
+  float: left;
+  clear: none;
+  display: inline;
+  margin-top: -7px;
+  padding-left: 20px;
+}
+
+#javascript {
+  float: left;
+  clear: none;
+  display: inline;
+  margin-top: -7px;
+  padding-left: 20px;
+}
+
+#eclipse {
+  float: left;
+  clear: left;
+  margin-left: 300px;
+  padding-bottom: 30px;
+}
+
+#xcode {
+  float: left;
+  clear: none;
+  display: inline;
+  margin-top: -7px;
+  padding-left: 30px;
+}
+
+#visualstudio {
+  float: left;
+  clear: none;
+  display: inline;
+  margin-top: -7px;
+  padding-left: 25px;
+}
+
+#office {
+  float: left;
+  clear: none;
+  display: inline;
+  margin-top: -7px;
+  padding-left: 25px;
+}
+
+#windows {
+  float: left;
+  clear: left;
+  margin-left: 300px;
+}
+
+#osx {
+  float: left;
+  clear: none;
+  display: inline;
+  margin-top: -7px;
+  padding-left: 30px;
+}
+
+#ubuntu {
+  float: left;
+  clear: none;
+  display: inline;
+  margin-top: -7px;
+  padding-left: 25px;
+}
+
+/* END SKILLS PAGE */
+
+/* START EXPERIENCE PAGE */
+
+#experience {
+  background-color: white;
+  position: relative;
+  padding: 30px;
+  margin-top: 0px;
+  width: auto;
+  height: 100vh;
+  margin-left: 250px;
+  text-align: center;
+  border-bottom: solid;
+  border-bottom-color: black;
+}
+
+#experience h1 {
+  font-family: "Bungee", sans-serif;
+  float: left;
+  font-size: 260%;
+}
+
+#experience h2 {
+  font-family: "Nanum Gothic Coding", sans-serif;
+  float: left;
+  clear: left;
+  margin-left: 100px;
+  margin-top: -5px;
+}
+
+#experience h3 {
+  font-family: "Nanum Gothic Coding", sans-serif;
+  float: left;
+  clear: left;
+  margin-left: 200px;
+}
+
+#experience ul {
+  font-family: "Nanum Gothic Coding", sans-serif;
+  clear: left;
+  text-align: left;
+  margin-left: 250px;
+}
+
+#experience li {
+  padding-bottom: 20px;
+}
+
+/* END EXPERIENCE PAGE */
+
+/* START PROJECTS PAGE */
+
+#projects {
+  background-color: white;
+  position: relative;
+  padding: 30px;
+  margin-top: 0px;
+  width: auto;
+  min-height: 100vh;
+  margin-left: 250px;
+  text-align: center;
+}
+
+#projects h1 {
+  font-family: "Bungee", sans-serif;
+  float: left;
+  font-size: 260%;
+}
+
+#projects h2 {
+  font-family: "Nanum Gothic Coding", sans-serif;
+  float: left;
+  clear: left;
+  margin-left: 100px;
+  margin-top: -5px;
+}
+
+/* END PROJECTS PAGE */
